@@ -8,3 +8,6 @@ dbaeumer.vscode-eslint@3.0.10
 redhat.java@1.42.0
 ms-python.python@2025.6.1
 rust-lang.rust-analyzer@0.3.2482
+
+# Example: Adding TypeScript support (just uncomment the line below)
+# ms-vscode.vscode-typescript-next@5.8.20250101
