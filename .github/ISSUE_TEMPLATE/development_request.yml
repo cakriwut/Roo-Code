@@ -8,11 +8,11 @@ body:
         **Thanks for your report!** Please check existing issues first:  
         👉 https://github.com/RooCodeInc/Roo-Code/issues
 
-  - type: input
+  - type: markdown
     id: objectives
-    attributes:
-      label: Objectives
-      description: What are the objectives of this development task?
+    description: |
+        Describe the objectives of this development task
+      placeholder: Describe the objective of this development task
     validations:
       required: true
 
