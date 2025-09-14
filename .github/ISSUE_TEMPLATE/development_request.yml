@@ -8,9 +8,10 @@ body:
         **Thanks for your report!** Please check existing issues first:  
         👉 https://github.com/RooCodeInc/Roo-Code/issues
 
-  - type: markdown
+  - type: textarea
     id: objectives
     attributes:
+      label: Objectives
       description: |
           Describe the objectives of this development task
       placeholder: Describe the objective of this development task
