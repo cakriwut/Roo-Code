@@ -13,7 +13,7 @@ body:
     attributes:
       description: |
           Describe the objectives of this development task
-        placeholder: Describe the objective of this development task
+      placeholder: Describe the objective of this development task
     validations:
       required: true
 
