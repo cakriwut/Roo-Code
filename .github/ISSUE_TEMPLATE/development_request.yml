@@ -1,0 +1,67 @@
+name: Development Request
+description: Clearly define the objectives, scope, testing for the development task.
+labels: ["development", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Thanks for your report!** Please check existing issues first:  
+        👉 https://github.com/RooCodeInc/Roo-Code/issues
+
+  - type: input
+    id: objectives
+    attributes:
+      label: Objectives
+      description: What are the objectives of this development task?
+    validations:
+      required: true
+
+  - type: textarea
+    id: roo-code-tasks
+    attributes:
+      label: Roo Code Task Links (Optional)
+      description: |
+        If you have any publicly shared task links that demonstrate the issue, please paste them here.
+        This helps maintainers understand the context.
+        Example: https://app.roocode.com/share/task-id
+      placeholder: Paste your Roo Code share links here, one per line
+
+  - type: textarea
+    id: tasks-to-complete
+    attributes:
+      label: 🔁 Tasks to Complete
+      description: |
+        List the tasks that need to be completed for this development request.
+        Be as detailed as possible to help maintainers understand the scope.
+      placeholder: |
+        1. Task one
+        2. Task two
+        3. Task three
+
+        Think like you're writing a recipe to achieve the objectives.
+    validations:
+      required: true
+
+  - type: textarea
+    id: existing-behavior
+    attributes:
+      label: 💥 Existing Behavior
+      description: |
+        Describe the current behavior that needs to be changed or improved.
+
+        Example: "Expected code to run, but got an empty response and no error."
+      placeholder: Existing behaviour are:.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: 📄 Expected Behavior
+      description: |
+        Describe the behavior you expect to see after the changes are made.
+
+        Example: "Expected code to run and return the correct result."
+      placeholder: Expected behaviour is:.
+    validations:
+      required: true
